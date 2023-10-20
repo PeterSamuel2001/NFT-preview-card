@@ -47,7 +47,7 @@ main {
 
 .equilibrium-img {
     width: 17rem;
-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .bottom {
@@ -56,14 +56,14 @@ border-radius: 10px;
     gap: 2vh;
 }
 
-.eth-balance {
+.expiration-balance {
     display: flex;
     justify-content: space-between;
     border-bottom: solid 1px rgba(255, 255, 255, 0.163);
-    padding-bottom: 2rem;
+    padding-bottom: 1.25rem;
 }
 
-.eth-balance h3:before {
+.expiration-balance .balance:before {
     content: '';
     background-image: url(images/icon-ethereum.svg);
     display: inline-block;
@@ -74,19 +74,19 @@ border-radius: 10px;
     margin-right: 0.25vw;
 }
 
-.eth-balance h3 {
+.expiration-balance .balance {
     color: cyan;
 }
 
-.eth-balance p:before {
-content: '';
-display: inline-block;
-vertical-align: middle;
-background-image: url(images/icon-clock.svg);
-background-repeat: no-repeat;
-height: 1.25rem;
-width: 1rem;
-margin-right: 0.5vw;
+.expiration-balance .expiration:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(images/icon-clock.svg);
+    background-repeat: no-repeat;
+    height: 1.25rem;
+    width: 1rem;
+    margin-right: 0.5vw;
 }
 
 .creator-avatar {
